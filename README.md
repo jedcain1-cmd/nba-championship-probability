@@ -86,4 +86,33 @@ nba-championship-probability/
 │   ├── nba_actual_champion_probabilities_1993_2025.csv
 │   └── nba_franchise_expected_vs_actual_1993_2025.csv
 │
+├── outputs/
+│   └── charts/
+│       ├── most_improbable_nba_champions.png
+│       └── franchise_expected_vs_actual.png
+│
+├── requirements.txt
 └── README.md
+
+## How to Run
+
+Clone the repository and install the required Python packages:
+
+```bash
+git clone https://github.com/jedcain1-cmd/nba-championship-probability.git
+cd nba-championship-probability
+pip install -r requirements.txt
+```
+
+Then open Jupyter and run the notebooks in order:
+
+1. `01_data_collection.ipynb`
+2. `02_model_development.ipynb`
+3. `03_playoff_simulation.ipynb`
+4. `04_results_analysis.ipynb`
+
+The processed datasets used by the analysis are also included in the `data/` directory.
+
+## Tools
+
+Python · pandas · NumPy · scikit-learn · Matplotlib · nba_api · Jupyter
