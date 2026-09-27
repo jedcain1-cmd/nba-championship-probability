@@ -54,6 +54,8 @@ Adding each franchise's pre-playoff championship probabilities across the full s
 
 Some notable results:
 
+![Expected vs. Actual Championships by Franchise](outputs/charts/franchise_expected_vs_actual.png)
+
 | Franchise | Expected | Actual | Difference |
 |---|---:|---:|---:|
 | Los Angeles Lakers | 1.66 | 6 | **+4.34** |
