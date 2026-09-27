@@ -16,6 +16,8 @@ The model identified the **1995 Houston Rockets** as the most improbable champio
 
 For comparison, the 2016 Cleveland Cavaliers won about **7.2%** of simulated postseasons, while the 2001 Los Angeles Lakers won about **3.6%**.
 
+![The 10 Most Improbable NBA Champions](outputs/charts/most_improbable_nba_champions.png)
+
 ## Methodology
 
 The project uses a game-level probability model to estimate the likelihood that the home team wins a playoff game.
